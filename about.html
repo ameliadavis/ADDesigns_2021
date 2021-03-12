@@ -84,17 +84,17 @@
 
           
     <div class="uk-container uk-margin">
-        <form action="/MailDataServer" method="POST" enctype="multipart/form-data">
-                <fieldset class="uk-fieldset">
+        <form class="quform" action="quform/process.php" method="post" enctype="multipart/form-data">
+                <fieldset class="uk-fieldset quform-elements">
                         <legend class="uk-legend">Contact Me</legend>
                     <div class="uk-margin">
-                            <input class="uk-input" type="text" id="email" placeholder="YourEmail@example.com">
+                            <input class="uk-input quform-input" type="text" id="email" placeholder="YourEmail@example.com">
                         </div>
                     <div class="uk-margin">
-                            <input class="uk-input" type="text" id="Subject" placeholder="Subject">
+                            <input class="uk-input quform-input" type="text" id="Subject" placeholder="Subject">
                         </div>
                     <div class="uk-margin">
-                            <textarea class="uk-textarea" rows="5" id="text"placeholder="Email Text"></textarea>
+                            <textarea class="uk-textarea quform-input" rows="5" id="message"  placeholder="Email Text"></textarea>
                         </div>
                     <button class="uk-button uk-button-default uk-align-left" id="aboutFormSendButton"> Send</button>
                     <!-- <button class="uk-button uk-button-default uk-align-left" id="aboutFormSendButton" uk-toggle="target: #modal-example"> Send</button> -->
@@ -135,30 +135,10 @@
        </div>       
 
 
-
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.0/moment.min.js" type="text/javascript"></script>
-  <!-- <script src="js/index.js" type="text/javascript"></script> -->
-  <!-- <script src="js/mail.js" type="text/javascript"></script> -->
-  <script>
-  $('form').on('submit', (e) => {
-    e.preventDefault();
+    <script type="text/javascript" src="quform/js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="quform/js/plugins.js"></script>
+    <script type="text/javascript" src="quform/js/scripts.js"></script>
 
-    const email =$('#email').val().trim();
-    const subject =$('#Subject').val().trim();
-    const text = $('#text').val().trim();
-
-    const data = {
-        email, 
-        subject,
-        text, 
-    }
-
-    $.post('/MailDataServer', data, function() {
-        console.log("this data is being sent to the server", data)
-        
-    })
-})</script>
-  <script src="js/about.js" type="text/javascript"></script>
 </body>
 </html>
