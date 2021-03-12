@@ -39,7 +39,7 @@ $config['email'] = true;
  *     'recipient2@example.com'
  * );
  */
-$config['recipients'] = '';
+$config['recipients'] = 'ameliaaltman22@gmail.com';
 
 /**
  * Set the "From" address of the emails. You should set this to the contact
@@ -59,13 +59,13 @@ $config['recipients'] = '';
  *
  * $config['from'] = '%email%';
  */
-$config['from'] = '';
+$config['from'] = 'ameliaaltman22@gmail.com';
 
 /**
  * The subject of the notification email message. %first_name% will be replaced
  * with the form submitted value in the first_name field.
  */
-$config['subject'] = 'Message from %name%';
+$config['subject'] = 'AD Designs Form fill from %name%';
 
 /**
  * Set the "Reply-To" email address of the notification email to
@@ -185,9 +185,9 @@ $config['smtp'] = array(
  * Filters: Trim
  * Validators: Required
  */
-$name = new Quform_Element('name', 'Name');
+$name = new Quform_Element('Subject', 'Subject');
 $name->addFilter('trim');
-$name->addValidator('required');
+// $name->addValidator('required');
 $form->addElement($name);
 
 /**
@@ -195,9 +195,9 @@ $form->addElement($name);
  * Filters: Trim
  * Validators: Required, Email
  */
-$email = new Quform_Element('email', 'Email address');
+$email = new Quform_Element('email', 'email');
 $email->addFilter('trim');
-$email->addValidators(array('required', 'email'));
+// $email->addValidators(array('required', 'email'));
 $form->addElement($email);
 
 /**
@@ -205,7 +205,7 @@ $form->addElement($email);
  * Filters: Trim
  * Validators: Required
  */
-$message = new Quform_Element('message', 'Message');
+$message = new Quform_Element('message', 'message');
 $message->addFilter('trim');
 $message->addValidator('required');
 $form->addElement($message);
