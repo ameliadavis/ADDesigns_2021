@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Amelia Davis Designs About Me</title>
+
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!--UIKit CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit-icons.min.js"></script>
+</head>
+<body>
+    <div style="z-index: 980;" uk-sticky="bottom: #offset">
+        <nav class="uk-navbar-container uk-margin" uk-navbar>
+                <div class="uk-navbar-left">
+            
+                    <a class="uk-navbar-item uk-logo adNavLogo" href="/"><img src="assets/AD_Logo.png"></a>
+            
+                    <ul class="uk-navbar-nav">
+                        <li>
+                            <li>
+                                <a href="/MyWork">
+                                    <span class="uk-icon " uk-icon=""></span>
+                                    My Work
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/about">
+                                    <span class="uk-icon " uk-icon=""></span>
+                                    My Story
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/BlogHome">
+                                    <span class="uk-icon " uk-icon=""></span>
+                                    My Blog
+                                </a>
+                            </li>
+                    </ul>
+                    
+                </div>
+            </nav>
+        </div>
+
+    <div class ="uk-container">
+        <div class=".uk-grid-column-medium uk-child-width-1-2" uk-grid>
+            <div class="uk-width-auto@m">
+                <img src="assets/Headshot_Untreated.png">
+            </div>
+            <div class="uk-width-expand">
+                    <h3 >I Design</h3>
+                    <p> I have been designing professionally for 7 years working with clients large and small. My project portfolio includes print, video and social media solutions. I enjoy researching the latest trends and learning new technology. </p>
+                    <p> Branding | Typography | Logo Design | Layout | Video | Animation</p>
+                    <br>
+                    <h3>  & I Code </h3>
+                    <p> I have recently expanded my skillset to include full stack web-development with a certificate from the University of Denver. I now have the ability to extend my clients message beyond content to live applications online. </p>
+                    <p> HTML | CSS | Javascript/ ES6 | React.js | MySql | MongoDB | Mongoose & Sequlize </p>
+            </div>
+        </div>
+    </div>
+
+
+        <div class="uk-align-center aboutSocialMediaSection">
+            <div class="uk-container">
+                <div class="uk-child-width-1-3@s" uk-grid>
+                    <div></div>
+                    <div class="uk-text-center">
+                        <h3 class="socialIcons  FollowText">Follow Me: </h3>
+                        <a href="https://www.instagram.com/ameliaaltmandavis/"><img src="assets/Instagram_CIR_Orange.png"  alt ="Instagram Icon" class="socialIcons"  width="60px" height="" uk-img></a>
+                        <a href="https://www.instagram.com/ameliaaltmandavis/"><img src="assets/Linkedin_CIR_Orange.png" alt ="Linkedin Logo" class="socialIcons"  width="60px" height="" uk-img></a>
+                        <a href="https://www.instagram.com/ameliaaltmandavis/"><img src="assets/GitHub_CIR_Orange.png" alt="GitHub Icon" class="socialIcons" width="60px" height="" uk-img></a>
+                    </div> 
+                    <div></div>
+                </div>
+            </div>    
+        </div>
+
+          
+    <div class="uk-container uk-margin">
+        <form action="/MailDataServer" method="POST" enctype="multipart/form-data">
+                <fieldset class="uk-fieldset">
+                        <legend class="uk-legend">Contact Me</legend>
+                    <div class="uk-margin">
+                            <input class="uk-input" type="text" id="email" placeholder="YourEmail@example.com">
+                        </div>
+                    <div class="uk-margin">
+                            <input class="uk-input" type="text" id="Subject" placeholder="Subject">
+                        </div>
+                    <div class="uk-margin">
+                            <textarea class="uk-textarea" rows="5" id="text"placeholder="Email Text"></textarea>
+                        </div>
+                    <button class="uk-button uk-button-default uk-align-left" id="aboutFormSendButton"> Send</button>
+                    <!-- <button class="uk-button uk-button-default uk-align-left" id="aboutFormSendButton" uk-toggle="target: #modal-example"> Send</button> -->
+                </fieldset>
+        </form>
+    </div>    
+    
+    <!-- email sent modal pop up -->
+    <div id="modal-example" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body">
+            <h2 class="uk-modal-title">Headline</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="uk-text-right">
+                <button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
+                <button class="uk-button uk-button-primary" type="button">Save</button>
+            </p>
+        </div>
+    </div>
+
+    
+    <div class="Footer">
+            <div class="uk-container">
+        <div class="uk-child-width-1-2 uk-text-center" uk-grid>
+            <form>
+                <input class="uk-input" id="emailInputFeild" type="text" placeholder="Enter Email for Newsletter" atl= "Enter Email">
+                <button class="uk-button uk-button-default" id="emailFormSendButton"> Send</button>
+            </form>
+            <div>
+            <div class="uk-child-width-1-3 uk-text-center" uk-grid></div>
+                    <div class="socialMediaLinks">
+                            <a href="https://www.instagram.com/ameliaaltmandavis/"><img data-src="assets/Instagram_CIR.png" class="socialIcons"  width="60px" height="" uk-img></a>
+                            <a href="https://github.com/ameliadavis"><img data-src="assets/GitHub_CIR.png" class="socialIcons"  width="60px" height="" uk-img></a>
+                            <a href="mailto:ameliaaltmandavis@gmail.com"><img data-src="assets/Email_CIR.png" alt="" class="socialIcons" width="60px" height="" uk-img></a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+       </div>       
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.0/moment.min.js" type="text/javascript"></script>
+  <!-- <script src="js/index.js" type="text/javascript"></script> -->
+  <!-- <script src="js/mail.js" type="text/javascript"></script> -->
+  <script>
+  $('form').on('submit', (e) => {
+    e.preventDefault();
+
+    const email =$('#email').val().trim();
+    const subject =$('#Subject').val().trim();
+    const text = $('#text').val().trim();
+
+    const data = {
+        email, 
+        subject,
+        text, 
+    }
+
+    $.post('/MailDataServer', data, function() {
+        console.log("this data is being sent to the server", data)
+        
+    })
+})</script>
+  <script src="js/about.js" type="text/javascript"></script>
+</body>
+</html>
