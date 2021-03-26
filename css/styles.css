@@ -106,7 +106,6 @@ margin-top: 6%;
 .aboutSocialMediaSection{
   background-color: #E9F7F6;
   padding: 4%;
-  /* align-items: center; */
 }
 .Gallery a:hover{
   background: #ffffff; 
@@ -122,6 +121,10 @@ margin-top: 6%;
 color: #ffffff;
 margin-bottom:2%;
 margin-top: 10%
+}
+.myStoryHeaderSection{
+  margin-top:8%;
+  padding-top: 10%;
 }
 
 
