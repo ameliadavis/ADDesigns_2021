@@ -142,7 +142,9 @@ margin-top: 10%
 #BlogImages{
   box-shadow: 2px 2px 10px rgba(112, 112, 112, .2);
 }
-
+a:hover{
+  text-decoration: none;
+}
 
 
 
