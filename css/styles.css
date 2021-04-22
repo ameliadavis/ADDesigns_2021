@@ -133,7 +133,15 @@ margin-top: 10%
 #my-form {
   margin:  0 15% 0 15%;
 }
-
+#BlogSubheader{
+  margin-top: 0;
+}
+#blogHeaderTitle{
+  margin-bottom: 5;
+}
+#BlogImages{
+  box-shadow: 2px 2px 10px rgba(112, 112, 112, .2);
+}
 
 
 
