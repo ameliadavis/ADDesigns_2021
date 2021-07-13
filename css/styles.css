@@ -69,7 +69,7 @@
    margin: 0% 0% 8% 0%;
    }
    .projectTitle{
-   margin-bottom: 0%;
+   margin-bottom: 6%;
    margin-top: 6%;
    }
    .SalesPitch{
@@ -145,7 +145,12 @@
    a:hover{
      text-decoration: none;
    }
-   
+   .projectTextGroupings{
+     margin-Bottom: 0px;
+   }
+   .projectTextGroupingsP{
+     margin-top:0px;
+   }
    
    
    
