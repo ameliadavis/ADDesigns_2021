@@ -154,6 +154,32 @@
    .uk-navbar-container{
     margin-bottom:20px;
    }
+   .NavBarADLogoIcon{
+     height: 60px;
+     width: 60px;
+     display: inline-block; 
+     margin-left: 35px;
+     margin-top:  45px;
+     padding-top: 6px;
+     padding-bottom: 3px;
+   }
+   .navBarLogIconBackgroundBubble{
+    background-color: #E0F5F3;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    margin-top: -40px;
+   }
+   .TestNavBar{
+     height:60px;
+     border-bottom-color: #67B7B3 .6;
+     border-bottom-width: 10px;
+   }
+   .testNavMenuLinks{
+     margin-left: 16px;
+     margin-right: 16px;
+     margin-top: -20px;
+   }
    
    
    
