@@ -1,15 +1,66 @@
-.adLogo{
+ /************************* Nav Bar *************************/
+ 
+ .NavStyleA{
+  background: #75CFCA !important;
+  /* background: rgba(255,255,255, .43) !important; */
+  height: 75px;
+}
+.NavStyleB{
+  background: rgba(103,183,179, .5) !important;
+  height: 60px;
+  
+}
+/* .NavStyleB a{
+  color: #67B7B3 !important;
+} */
+nav a{
+  color: #ffffff !important;
+  /* color: #67B7B3 !important; */
+}
+/* .adNavLogo {
+width: 80px;  
+} */
+.uk-navbar-container{
+  margin-bottom:20px;
+}
+/* .NavBarADLogoIcon{
+  height: 60px;
+  width: 60px;
+  display: inline-block; 
+  margin-left: 35px;
+  margin-top:  45px;
+  padding-top: 6px;
+  padding-bottom: 3px;
+} */
+/* .navBarLogIconBackgroundBubble{
+  background-color: #E0F5F3;
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  margin-top: -40px;
+} */
+
+.uk-logo.logoActive {
+ width: 80%;
+ padding-top: -1%;
+}
+a.uk-navbar-item{
+  height: 75%;
+}
+
+
+ 
+ 
+ /********************************* Index page  ******************************/
+  
+  .adLogo{
     margin-top:18%;
    }
    body{
-     background-image: linear-gradient(to bottom right, #e9f7f6, #ffffff, #e9f7f6);
+     /* background-image: linear-gradient(to bottom right, #e9f7f6, #ffffff, #e9f7f6); */
+     background-image: linear-gradient(to bottom right, #E3F5F4, #ffffff, #e9f7f6);
    }
-   nav{
-     background: #75CFCA !important;
-   }
-   nav  a{
-     color: #ffffff !important;
-   }
+
    .IndexDetails{
      background-color: #E9F7F6;
      padding: 4%
@@ -21,59 +72,39 @@
    .socialIcons{
      padding: 5px;
    }
-   .Footer{
-     background-color: #75CFCA;
-     height: 50%;
-   }
+
    #emailInputFeild{
      width:450px;
    }
    form{
      padding: 5% 2% 5% 5%;
    }
+   #indexFormButton{
+    background-color: #FF9E18;
+    float: right;
+   }
    .socialMediaLinks{
      padding: 5% 2% 5% 5%;
    }
-   #emailFormSendButton{
-     background-color: #707070;
-     color:#ffffff;
-    
-   }
-   #aboutFormSendButton, #my-form-button{
-     background-color: #FF9E18;
-     float: right;
-     margin-top: 4%;
-    
-   }
-   .adNavLogo {
-   width: 80px;  
-   }
-   
-   .ProjectImages{
-     background-color: #E9F7F6;
-     padding: 3% 0% 3% 0%;
-   }
+  
+   .indexHeadshotAdavis{
+    padding-top: 2%;
+    height: 80%;
+    width: 80%;
+  }
+  .welcomeTextArea{
+    padding-top: 10%;
+    padding-left:8%
+  }
+  .index-form{
+    background-color:#75CFCA;
+    padding: 10%;
+  }
    .spaceAboveFooter{
      height: 100px;
    }
-   .ProjectUrls{
-     margin-top: 12%;
-   }
-   .additionalProjectInfoText{
-     margin-top: 8%;
-   }
-   .ProjectGitHub{
-     margin-top: 12%;
-   }
-   .projectNameSubheader{
-   margin: 0% 0% 8% 0%;
-   }
-   .projectTitle{
-   margin-bottom: 6%;
-   margin-top: 6%;
-   }
    .SalesPitch{
-     margin: 4% 0% 4% 0%;
+     margin: 4% 15% 4% 15%;
    }
    .Gallery{
      margin-top: 10%;
@@ -81,28 +112,11 @@
    .AmeliaDavisHeadshot{
      margin-top: 6%;
    }
-   .uk-navbar-left{
-     padding-left: 5%;
-   }
-   
-   .indexHeadshotAdavis{
-     height: 60%;
-     width: 60%;
-   }
-   .welcomeTextArea{
-     padding-top: 10%;
-   }
    .workSectionImages{
     border: #ffffff solid 8px;
    }
-   .ComingSoonSection{
-     background-color: #E9F7F6;
-     color: #ffffff;
-     Padding: 14%
-   }
-   .BlogHeader{
-     padding:2%
-   }
+
+   /*********************************** About Me Page  ***********************/
    .aboutMeLogoAD{
      width: 25%;
      height: 25%;
@@ -115,6 +129,21 @@
      background: #ffffff; 
      opacity: .3;
    }
+   #my-form {
+    margin:  0 15% 0 15%;
+  }
+  #aboutFormSendButton, #my-form-button{
+    background-color: #FF9E18;
+    float: right;
+    margin-top: 4%; 
+  }
+  #emailFormSendButton{
+    background-color: #707070;
+    color:#ffffff;
+  }
+
+
+   /****************************** Footer ***************************/
    .footerIcon{
      width: 80px;
    }
@@ -126,13 +155,14 @@
    margin-bottom:2%;
    margin-top: 10%
    }
-   .myStoryHeaderSection{
-     margin-top:8%;
-     padding-top: 10%;
-   }
-   #my-form {
-     margin:  0 15% 0 15%;
-   }
+
+   .Footer{
+    background-color: #75CFCA;
+    height: 50%;
+  }
+
+
+  /****************************** Blog Page  *************************/
    #BlogSubheader{
      margin-top: 0;
    }
@@ -145,42 +175,6 @@
    a:hover{
      text-decoration: none;
    }
-   .projectTextGroupings{
-     margin-Bottom: 0px;
-   }
-   .projectTextGroupingsP{
-     margin-top:0px;
-   }
-   .uk-navbar-container{
-    margin-bottom:20px;
-   }
-   .NavBarADLogoIcon{
-     height: 60px;
-     width: 60px;
-     display: inline-block; 
-     margin-left: 35px;
-     margin-top:  45px;
-     padding-top: 6px;
-     padding-bottom: 3px;
-   }
-   .navBarLogIconBackgroundBubble{
-    background-color: #E0F5F3;
-    height: 125px;
-    width: 125px;
-    border-radius: 50%;
-    margin-top: -40px;
-   }
-   .TestNavBar{
-     height:60px;
-     border-bottom-color: #67B7B3 .6;
-     border-bottom-width: 10px;
-     z-index: 2;
-   }
-   .testNavMenuLinks{
-     margin-left: 16px;
-     margin-right: 16px;
-     margin-top: -20px;
-   }
    .lineUnderTestIndex{
      background-color: #ABD7D5;
      height: 10px;
@@ -191,9 +185,57 @@
    .FormBoxHeader{
      background-color: #67B7B3;
    }
+   .BlogHeader{
+    padding:2%
+  }
+
    
-   
-   
+   /******************************** portfolio pages **************************/
+   .projectSummarySection{
+     padding-top: 5%;
+   }
+   .projectTextGroupings{
+    margin-Bottom: 0px;
+  }
+  .projectTextGroupingsP{
+    margin-top:0px;
+  }
+  .ProjectGitHub{
+    margin-top: 12%;
+  }
+  .projectNameSubheader{
+  margin: 0% 0% 8% 0%;
+  }
+  /* .projectTitle{
+  margin-bottom: 6%;
+  margin-top: 6%;
+  } */
+  .ProjectUrls{
+    margin-top: 12%;
+  }
+  .additionalProjectInfoText{
+    margin-top: 8%;
+  }
+  .ProjectImages{
+    background-color: #E9F7F6;
+    padding: 3% 0% 3% 0%;
+  }
+  .ProjectIcons{
+    width: 25%;
+    padding-right: 10px ;
+  }
+  .ComingSoonSection{
+    background-color: #E9F7F6;
+    color: #ffffff;
+    Padding: 14%
+  }
+  .SkillsLine{
+    font-style: italic;
+    font-size: 11pt;
+  }
+
+
+  /*************************** Media Queries *************************/
    @media only screen and (max-width: 600px) {
      #emailFormSendButton{
       width: 100px;
