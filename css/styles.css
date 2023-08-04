@@ -240,11 +240,19 @@ a.uk-navbar-item{
      #emailFormSendButton{
       width: 100px;
      }
-    
+     .uk-logo{
+      visibility: hidden;
+     }
+     .uk-navbar-center{
+       width: 5px;
+     }
      .socialIcons{
        width: 50px
      }
      .welcomeTextArea{
-       font-size: .75rem;
+       font-size: .75rem
+     }
+     .welcomeHeader {
+      margin-top: 8%;
      }
    }
